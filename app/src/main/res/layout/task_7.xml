@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainFrame"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="-52dp"
+        android:layout_marginTop="40dp">
+
+
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/undraw_adventure_map_hnin_2task_1"
+            android:layout_alignParentBottom="true"/>
+
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome back"
+            android:textSize="24sp"
+            android:layout_above="@id/textSubtitle"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_marginStart="40dp"
+
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/textSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sign in to access your content"
+            android:textSize="14sp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="40dp"
+            />
+
+    </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="30dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  app:boxBackgroundColor="#33C4C4C4"
+                  app:boxStrokeWidth="0dp"
+                  app:boxCornerRadiusTopEnd="10dp"
+                  app:boxCornerRadiusTopStart="10dp"
+                  app:boxCornerRadiusBottomStart="10dp"
+                  app:boxCornerRadiusBottomEnd="10dp"
+                  android:drawableEnd="@drawable/mailicon1"
+                  app:endIconMode="custom"
+    
+    
+                  />
+                    <com.google.android.material.textfield.TextInputEditText
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter your email"
+                      android:paddingVertical="16dp"
+                      android:paddingHorizontal="20dp"
+                      android:textSize="14sp"
+                      />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxBackgroundColor="#33C4C4C4"
+                    app:boxStrokeWidth="0dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:endIconDrawable="@drawable/lock"
+                    app:endIconMode="custom"
+                    android:layout_marginTop="25dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"
+                        android:paddingVertical="16dp"
+                        android:paddingHorizontal="20dp"
+                        android:textSize="14sp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Forget Password?"
+                        android:textColor="#FF3951"
+                        android:textSize="9sp"
+                        android:layout_marginTop="17dp"
+                        android:layout_gravity="end"
+                        />
+              </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_weight="1"
+                 android:paddingHorizontal="20dp"
+                 android:gravity="bottom"
+                 >
+
+             
+                  <com.google.android.material.button.MaterialButton
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Next"
+                      android:backgroundTint="#FF3951"
+                      app:cornerRadius="10dp"
+                      android:textSize="20dp"
+                      android:paddingVertical="13dp"
+                      />
+             
+             
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:gravity="center"
+                 android:layout_marginTop="23dp"
+                 android:layout_marginBottom="50dp">
+
+
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="New Member?"
+                     android:textColor="#252525"
+                     android:textSize="13sp"
+                     android:layout_gravity="end"
+                     />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Register now"
+                     android:textStyle="bold"
+                     android:textColor="#FF3951"
+                     android:textSize="13sp"
+                     android:layout_marginTop="17dp"
+                     android:layout_gravity="end"
+                     android:layout_marginEnd="42dp"
+                     />
+
+
+
+             </LinearLayout>
+
+
+
+             
+         </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
