@@ -79,7 +79,7 @@
                 android:textSize="14sp"
                 android:paddingStart="22dp"
                 android:paddingTop="17dp"
-                android:drawableEnd="@drawable/user"/>
+               />
 
         </com.google.android.material.textfield.TextInputLayout>
 
