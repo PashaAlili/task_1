@@ -73,18 +73,18 @@
                   app:boxCornerRadiusTopStart="10dp"
                   app:boxCornerRadiusBottomStart="10dp"
                   app:boxCornerRadiusBottomEnd="10dp"
-                  android:drawableEnd="@drawable/mailicon1"
-                  app:endIconMode="custom"
-    
-    
+
+
+
                   />
-                    <com.google.android.material.textfield.TextInputEditText
-                      android:layout_width="match_parent"
-                      android:layout_height="wrap_content"
-                      android:hint="Enter your email"
-                      android:paddingVertical="16dp"
-                      android:paddingHorizontal="20dp"
-                      android:textSize="14sp"
+                     <com.google.android.material.textfield.TextInputEditText
+                       android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter your email"
+                        android:paddingVertical="16dp"
+                        android:paddingHorizontal="20dp"
+                        android:textSize="14sp"
+                        android:drawableEnd="@drawable/mailicon1"
                       />
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
