@@ -136,13 +136,14 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="bottom"
-            android:paddingHorizontal="80dp"
+            android:paddingHorizontal="35dp"
             android:layout_marginTop="30dp">
 
             <com.google.android.material.button.MaterialButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="SIGN UP"
+                android:layout_marginHorizontal="45dp"
                 android:backgroundTint="#228812"
 
 
@@ -160,12 +161,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="By continuing, you agree to accept our Privacy Policy & Terms of Services"
+                    android:text="By continuing, you agree to accept our Privacy Policy &\n Terms of Services"
                     android:textColor="#000000"
                     android:textSize="13sp"
-                    android:layout_gravity="center"
                     android:textStyle="bold"
-                    android:textAlignment="gravity"
+                    android:textAlignment="center"
                     />
 
 
